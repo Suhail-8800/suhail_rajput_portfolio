@@ -21,20 +21,21 @@
 
 .card-img {
   width: 200px;
-  height: auto;
+  height: 200px;
+  min-width: 150px;
   border-radius: 50%;
-  padding: 10px;
   border: 1px solid #d9dbdf;
-  /* background-color: #6c63ff; */
-  /* background: transparent; */
   box-shadow: 5px 5px 5px #d9dbdf;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
 }
 
 .body-header {
   max-width: inherit;
   display: flex;
-  /* width: 100%; */
-  /* background-color:#6c63ff99; */
   border-radius: 7px 7px 0px 0px;
   padding: 10px;
 }
@@ -50,19 +51,16 @@
 .duration {
   font-family: "Google Sans Regular";
   font-size: 16px;
-  /* color: #212121; */
   padding-right: 10px;
   float: right;
 }
 
 .body-content {
   max-width: inherit;
-  /* width: 100%; */
   border-radius: 0px 0px 7px 7px;
   padding: 10px;
   justify-content: center;
   align-items: center;
-  /* box-shadow: 5px 5px 5px #d3d3d3; */
 }
 
 .content-list {
@@ -72,7 +70,6 @@
 }
 
 .card-body {
-  /* background-color: #00FF00; */
   border-bottom: 1px solid #d9dbdf;
   border-left: 1px solid #d9dbdf;
   border-right: 1px solid #d9dbdf;
@@ -82,7 +79,6 @@
 }
 
 .visit-btn {
-  /* background-color: #6c63ff99; */
   display: inline-block;
   margin: 0px 10px 10px 0px;
   padding: 10px;
@@ -99,7 +95,6 @@
   margin: 0px;
   padding: 0px;
   font-family: "Google Sans Regular";
-  /* color: #000000; */
 }
 
 @media (max-width: 1380px) {

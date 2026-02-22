@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "masterPortfolio",
+  "name": "suhail-portfolio",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://Suhail-8800.github.io/suhail_rajput_portfolio",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
@@ -15,7 +15,6 @@
     "apollo-boost": "^0.4.4",
     "baseui": "^9.65.3",
     "chart.js": "^2.9.3",
-    "gh-pages": "^2.1.1",
     "node-fetch": "^2.6.0",
     "pdfjs-dist": "^2.12.313",
     "prettier-package-json": "^2.1.3",
@@ -34,6 +33,7 @@
   },
   "devDependencies": {
     "dotenv": "^6.2.0",
+    "gh-pages": "^6.3.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "2.0.5"

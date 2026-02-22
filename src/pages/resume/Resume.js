@@ -3,10 +3,9 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import { Fade } from "react-reveal";
 import "./Resume.css";
-import myResumePdf from "../../assets/docs/Ashutosh_Hathidara_Resume_ML.pdf";
+import resume from "../../assets/docs/Suhail_Rajput_Resume.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import Button from "../../components/button/Button";
-import { greeting } from "../../portfolio";
 import TopButton from "../../components/topButton/TopButton";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -90,7 +89,7 @@ export default class ResumePage extends Component {
                 <Button
                   text="📃 Download Resume"
                   newTab={true}
-                  href={greeting.resumeLink}
+                  href={resume}
                   theme={theme}
                 />
               </div>
@@ -132,11 +131,11 @@ export default class ResumePage extends Component {
                 </div>
               )}
 
-              {/* PDF Document */}
+              {/* PDF Viewer */}
               {!error && (
                 <div className="resume-page">
                   <Document
-                    file={myResumePdf}
+                    file={resume}
                     onLoadSuccess={this.onDocumentLoadSuccess}
                     onLoadError={this.onDocumentLoadError}
                     loading={
@@ -159,7 +158,7 @@ export default class ResumePage extends Component {
                     )}
                   </Document>
 
-                  {/* Pagination Controls */}
+                  {/* Pagination */}
                   {numPages && numPages > 1 && (
                     <div className="pagination-controls">
                       <button
@@ -170,9 +169,11 @@ export default class ResumePage extends Component {
                       >
                         ← Previous
                       </button>
+
                       <span className="page-info" aria-live="polite">
                         Page {currentPage} of {numPages}
                       </span>
+
                       <button
                         onClick={this.goToNextPage}
                         disabled={currentPage === numPages}
@@ -188,7 +189,7 @@ export default class ResumePage extends Component {
             </div>
           </Fade>
         </div>
-        <Footer theme={theme} onToggle={this.props.onToggle}/>
+        <Footer theme={theme} onToggle={this.props.onToggle} />
         <TopButton theme={theme} />
       </div>
     );

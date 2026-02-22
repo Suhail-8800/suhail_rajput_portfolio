@@ -1,0 +1,172 @@
+/* Main container for consistent width */
+.engineering-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+/* Hero section */
+.engineering-hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+/* This is extra added */
+.basic-highlights {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.engineering-hero {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+/*this is extra added */
+
+.engineering-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.engineering-subtitle {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Technical Focus Section */
+.tech-focus-wrapper {
+  text-align: center;
+  margin: 60px auto;
+  padding: 40px 20px;
+  max-width: 800px;
+  border-radius: 14px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.35s ease, background-color 0.35s ease;
+}
+
+.tech-focus-wrapper:hover {
+  box-shadow: 0 20px 45px rgba(21, 101, 192, 0.15);
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.tech-focus-title {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.radar-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 420px;
+  margin: 0 auto;
+}
+
+.fade-in-scale {
+  animation: scaleIn 0.9s ease-out forwards;
+}
+
+@keyframes scaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Grid layout */
+.engineering-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+}
+
+/* Individual cards */
+.engineering-card {
+  background-color: #f5f6fa;
+  padding: 30px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.engineering-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Project label */
+.engineering-project {
+  font-weight: 600;
+  margin: 10px 0;
+  color: #555;
+}
+
+/* Impact styling */
+.impact-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #2c3e50;
+}
+
+.engineering-link {
+  display: inline-block;
+  position: relative;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #1f3c88;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.engineering-link:hover {
+  color: #1f3c88;
+}
+
+.engineering-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 1px;
+  background-color: #1b1a1a;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.35s ease;
+}
+
+.engineering-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* Responsive adjustments */
+
+.radar-container {
+  height: 300px;
+}
+
+.tech-focus-wrapper {
+  padding: 25px 15px;
+  margin: 40px auto;
+}
+
+.tech-focus-title {
+  font-size: 26px;
+}
+
+@media (max-width: 768px) {
+  .engineering-title {
+    font-size: 32px;
+  }
+
+  .engineering-subtitle {
+    font-size: 16px;
+  }
+}
