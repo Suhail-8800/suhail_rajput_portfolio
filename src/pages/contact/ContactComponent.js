@@ -7,7 +7,6 @@ import Button from "../../components/button/Button";
 import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { Link } from "react-router-dom";
 import { contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
