@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/suhail_rajput_portfolio/static/css/main.2aead237.chunk.css",
-    "main.js": "/suhail_rajput_portfolio/static/js/main.b13e3cf4.chunk.js",
-    "main.js.map": "/suhail_rajput_portfolio/static/js/main.b13e3cf4.chunk.js.map",
+    "main.js": "/suhail_rajput_portfolio/static/js/main.1a16ad55.chunk.js",
+    "main.js.map": "/suhail_rajput_portfolio/static/js/main.1a16ad55.chunk.js.map",
     "runtime-main.js": "/suhail_rajput_portfolio/static/js/runtime-main.58d55614.js",
     "runtime-main.js.map": "/suhail_rajput_portfolio/static/js/runtime-main.58d55614.js.map",
-    "static/js/2.6214dced.chunk.js": "/suhail_rajput_portfolio/static/js/2.6214dced.chunk.js",
-    "static/js/2.6214dced.chunk.js.map": "/suhail_rajput_portfolio/static/js/2.6214dced.chunk.js.map",
+    "static/js/2.186ce0f9.chunk.js": "/suhail_rajput_portfolio/static/js/2.186ce0f9.chunk.js",
+    "static/js/2.186ce0f9.chunk.js.map": "/suhail_rajput_portfolio/static/js/2.186ce0f9.chunk.js.map",
     "index.html": "/suhail_rajput_portfolio/index.html",
-    "precache-manifest.3b40ebc3fb25816317043db49428df66.js": "/suhail_rajput_portfolio/precache-manifest.3b40ebc3fb25816317043db49428df66.js",
+    "precache-manifest.327990daebc8d146be27bf039e302e98.js": "/suhail_rajput_portfolio/precache-manifest.327990daebc8d146be27bf039e302e98.js",
     "service-worker.js": "/suhail_rajput_portfolio/service-worker.js",
     "static/css/main.2aead237.chunk.css.map": "/suhail_rajput_portfolio/static/css/main.2aead237.chunk.css.map",
     "static/media/index.css": "/suhail_rajput_portfolio/static/media/Montserrat-Regular.ee653992.ttf",
@@ -39,9 +39,7 @@
     "static/media/googleAssistant.svg": "/suhail_rajput_portfolio/static/media/googleAssistant.a6addc3f.svg",
     "static/media/ibm_logo.png": "/suhail_rajput_portfolio/static/media/ibm_logo.d3fccbe1.png",
     "static/media/intel_logo.jpg": "/suhail_rajput_portfolio/static/media/intel_logo.29152cf7.jpg",
-    "static/media/iu_logo.png": "/suhail_rajput_portfolio/static/media/iu_logo.60ed0bd3.png",
     "static/media/jsFramework.svg": "/suhail_rajput_portfolio/static/media/jsFramework.5b4a6449.svg",
-    "static/media/legato_logo.png": "/suhail_rajput_portfolio/static/media/legato_logo.c597fbde.png",
     "static/media/manOnTable.svg": "/suhail_rajput_portfolio/static/media/manOnTable.83ac24fb.svg",
     "static/media/muffito_logo.png": "/suhail_rajput_portfolio/static/media/muffito_logo.069938a8.png",
     "static/media/portfolio.gif": "/suhail_rajput_portfolio/static/media/portfolio.414dfbd9.gif",
@@ -49,19 +47,17 @@
     "static/media/projects_image.svg": "/suhail_rajput_portfolio/static/media/projects_image.b8ba9487.svg",
     "static/media/pwa.png": "/suhail_rajput_portfolio/static/media/pwa.71408db7.png",
     "static/media/real_time_sign_language_detector_logo.png": "/suhail_rajput_portfolio/static/media/real_time_sign_language_detector_logo.6574b24c.png",
-    "static/media/stanford_logo.png": "/suhail_rajput_portfolio/static/media/stanford_logo.2c497738.png",
     "static/media/suhail_profile.jpg": "/suhail_rajput_portfolio/static/media/suhail_profile.ea13cff4.jpg",
     "static/media/system_resource_management_logo.png": "/suhail_rajput_portfolio/static/media/system_resource_management_logo.8286bf9f.png",
     "static/media/talksCardBack.svg": "/suhail_rajput_portfolio/static/media/talksCardBack.6ac91b16.svg",
     "static/media/talksCardBackAlt.svg": "/suhail_rajput_portfolio/static/media/talksCardBackAlt.3fa54242.svg",
-    "static/media/tiktok_logo.png": "/suhail_rajput_portfolio/static/media/tiktok_logo.0993e324.png",
     "static/media/ui_ux_design.svg": "/suhail_rajput_portfolio/static/media/ui_ux_design.d6363089.svg",
     "static/media/vit_logo.png": "/suhail_rajput_portfolio/static/media/vit_logo.e6204744.png"
   },
   "entrypoints": [
     "static/js/runtime-main.58d55614.js",
-    "static/js/2.6214dced.chunk.js",
+    "static/js/2.186ce0f9.chunk.js",
     "static/css/main.2aead237.chunk.css",
-    "static/js/main.b13e3cf4.chunk.js"
+    "static/js/main.1a16ad55.chunk.js"
   ]
 }
