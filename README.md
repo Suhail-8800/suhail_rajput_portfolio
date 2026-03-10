@@ -58,7 +58,7 @@ git clone https://github.com/Suhail-8800/suhail_rajput_portfolio.git
 ### 2️⃣ Navigate into the project directory
 
 ```bash
-cd suhail_rajput_portfolio
+cd masterPortfolio
 ```
 
 ### 3️⃣ Install dependencies
