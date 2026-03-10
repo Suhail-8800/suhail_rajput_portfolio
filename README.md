@@ -109,7 +109,7 @@ All updates will automatically reflect on the website.
 # Project Structure 📂
 
 ```
-portfolio/
+masterPortfolio/
 │
 ├── public/
 │   ├── index.html
@@ -173,8 +173,7 @@ Development Tools:
 
 A full-stack platform that allows users to create **custom travel itineraries and explore curated experiences**.
 
-Repository  
-https://github.com/Suhail-8800
+🌐 **Boutique Travel Planning Portal:** [View Project](https://boutique-travel-portal-suhaill.vercel.app/)
 
 ---
 
@@ -182,8 +181,7 @@ https://github.com/Suhail-8800
 
 A **system-level monitoring tool** that tracks CPU usage, memory usage, and performance metrics in real time.
 
-Repository  
-https://github.com/Suhail-8800
+🌐 **System Resource Monitor:** [View Project](https://github.com/Suhail-8800/System-Resource-Monitor.git)
 
 ---
 
@@ -191,8 +189,7 @@ https://github.com/Suhail-8800
 
 A backend system for a **mentorship platform connecting parents, students, and mentors**.
 
-Repository  
-https://github.com/Suhail-8800
+🌐 **Mentora backend:** [View Project](https://github.com/Suhail-8800/MentoraBackend.git)
 
 ---
 
@@ -200,8 +197,7 @@ https://github.com/Suhail-8800
 
 A **computer vision project** that detects sign language gestures using **Python and OpenCV**.
 
-Repository  
-https://github.com/Suhail-8800
+🌐 **Real time Sign Language Detector:** [View Project](https://github.com/Suhail-8800/System-Resource-Monitor.git)
 
 ---
 
@@ -215,14 +211,11 @@ This project is licensed under the **MIT License**.
 
 **Suhail Rajput**
 
-Email  
-suhail2022@vitbhopal.ac.in
+Email : suhail2022@vitbhopal.ac.in
 
-LinkedIn  
-https://www.linkedin.com/in/suhail-rajput-64158722b/
+LinkedIn : https://www.linkedin.com/in/suhail-rajput-64158722b/
 
-GitHub  
-https://github.com/Suhail-8800
+GitHub : https://github.com/Suhail-8800
 
 ---
 
