@@ -98,10 +98,59 @@ class Highlights extends Component {
             {/* Card 1 */}
             <div className="engineering-card">
               <h3 style={{ color: theme.text }}>
+                Scalable Backend API Architecture
+              </h3>
+              <a
+                href="https://github.com/Suhail-8800/MentoraBackend"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="engineering-link"
+              >
+                Mentora Backend System
+              </a>
+              <p style={{ color: theme.secondaryText }}>
+                Developed a scalable backend architecture with RESTful APIs,
+                authentication mechanisms, and optimized database interactions
+                to support mentor–student collaboration workflows.
+              </p>
+              <p className="impact-text">
+                <strong>Impact:</strong> Improved system reliability and enabled
+                efficient backend operations for managing users, sessions, and
+                application data.
+              </p>
+            </div>
+
+            {/* Card 2 */}
+            <div className="engineering-card">
+              <h3 style={{ color: theme.text }}>
+                Scalable Full-Stack Architecture Design
+              </h3>
+              <a
+                href="https://boutique-travel-portal-suhaill.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="engineering-link"
+              >
+                Boutique Travel Planning Portal
+              </a>
+              <p style={{ color: theme.secondaryText }}>
+                Designed modular backend services using Node.js and Express,
+                structured MongoDB schema for dynamic itinerary management, and
+                implemented REST APIs to support booking workflows.
+              </p>
+              <p className="impact-text">
+                <strong>Impact:</strong> Enabled scalable itinerary creation and
+                efficient data retrieval with optimized API response handling.
+              </p>
+            </div>
+
+            {/* Card 3 */}
+            <div className="engineering-card">
+              <h3 style={{ color: theme.text }}>
                 Optimized Webhook Processing Pipeline
               </h3>
               <a
-                href="https://github.com/Suhail-8800/bajajFinserv.git"
+                href="https://github.com/Suhail-8800/QueryNexus.git"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="engineering-link"
@@ -119,30 +168,7 @@ class Highlights extends Component {
               </p>
             </div>
 
-            {/* Card 2 */}
-            <div className="engineering-card">
-              <h3 style={{ color: theme.text }}>
-                Lightweight System Monitoring Architecture
-              </h3>
-              <a
-                href="https://github.com/Suhail-8800/System-Resource-Monitor.git"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="engineering-link"
-              >
-                System Resource Monitor (C)
-              </a>
-              <p style={{ color: theme.secondaryText }}>
-                Implemented optimized system call sampling to track CPU, memory,
-                and disk usage in real time within terminal environments.
-              </p>
-              <p className="impact-text">
-                <strong>Impact:</strong> Maintained performance monitoring with
-                minimal system overhead.
-              </p>
-            </div>
-
-            {/* Card 3 */}
+            {/* Card 4 */}
             <div className="engineering-card">
               <h3 style={{ color: theme.text }}>
                 Real-Time AI Inference Optimization
@@ -165,27 +191,26 @@ class Highlights extends Component {
               </p>
             </div>
 
-            {/* Card 4 */}
+            {/* Card 5 */}
             <div className="engineering-card">
               <h3 style={{ color: theme.text }}>
-                Scalable Full-Stack Architecture Design
+                Lightweight System Monitoring Architecture
               </h3>
               <a
-                href="https://boutique-travel-portal-suhaill.vercel.app/"
+                href="https://github.com/Suhail-8800/System-Resource-Monitor.git"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="engineering-link"
               >
-                Boutique Travel Planning Portal
+                System Resource Monitor (C)
               </a>
               <p style={{ color: theme.secondaryText }}>
-                Designed modular backend services using Node.js and Express,
-                structured MongoDB schema for dynamic itinerary management, and
-                implemented REST APIs to support booking workflows.
+                Implemented optimized system call sampling to track CPU, memory,
+                and disk usage in real time within terminal environments.
               </p>
               <p className="impact-text">
-                <strong>Impact:</strong> Enabled scalable itinerary creation and
-                efficient data retrieval with optimized API response handling.
+                <strong>Impact:</strong> Maintained performance monitoring with
+                minimal system overhead.
               </p>
             </div>
           </div>

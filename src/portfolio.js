@@ -88,8 +88,8 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive and modern web applications using React, HTML, CSS, and JavaScript",
-        "⚡ Developing scalable backend services and REST APIs using Node.js, Express, and Java/Spring Boot",
+        "⚡ Building responsive and scalable web applications using React, HTML, CSS, and JavaScript",
+        "⚡ Developing RESTful APIs and backend services using Node.js, Express, and Java/Spring Boot",
         "⚡ Deploying and managing full-stack applications using MongoDB, AWS, and cloud platforms",
       ],
       softwareSkills: [
@@ -173,6 +173,59 @@ const skills = {
         },
       ],
     },
+    {
+      title: "Backend Development",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Designing and developing scalable REST APIs",
+        "⚡ Implementing authentication and secure backend services",
+        "⚡ Handling database operations and server-side business logic",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "logos:java",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "simple-icons:springboot",
+          style: {
+            color: "#6DB33F",
+          },
+        },
+        {
+          skillName: "ExpressJS",
+          fontAwesomeClassname: "simple-icons:express",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#336791",
+          },
+        },
+      ],
+    },
 
     {
       title: "Cloud & Deployment",
@@ -217,38 +270,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:kubernetes",
           style: {
             color: "#326CE5",
-          },
-        },
-      ],
-    },
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Building AI and Machine Learning solutions for real-world applications",
-        "⚡ Experience working on Computer Vision and data-driven projects",
-        "⚡ Integrating Machine Learning and AI features into scalable software systems",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "OpenCV",
-          fontAwesomeClassname: "simple-icons:opencv",
-          style: {
-            color: "#5C3EE8",
-          },
-        },
-        {
-          skillName: "TensorFlow",
-          fontAwesomeClassname: "simple-icons:tensorflow",
-          style: {
-            color: "#FF6F00",
           },
         },
       ],
@@ -397,18 +418,18 @@ const experience = {
           duration: "2025 - Present",
           location: "Remote",
           description:
-            "Designing and delivering backend and full-stack solutions for client projects, focusing on scalable APIs, optimized database interactions, and system reliability improvements.",
+            "Developing backend and full-stack solutions for client projects, designing scalable REST APIs, optimizing database interactions, and improving system performance and reliability.",
           color: "#000000",
         },
         {
-          title: "Data Analytics Intern",
+          title: "Financial Data Analytics Intern",
           company: "Earnwell",
           company_url: "https://earnwell.co.in/",
           logo_path: "earnwell_logo.png",
           duration: "2024",
           location: "Remote",
           description:
-            "Performed financial data analysis and implemented structured data processing workflows to derive actionable insights using analytics and reporting tools.",
+            "Analyzed financial datasets and implemented structured data processing workflows to extract insights, supporting data-driven decision making through analytics and reporting tools.",
           color: "#0879bf",
         },
       ],
@@ -428,15 +449,26 @@ const experience = {
           color: "#000000",
         },
         {
+          title: "Backend Developer",
+          company: "Mentora Backend System",
+          company_url: "https://github.com/Suhail-8800/mentora-backend-system",
+          logo_path: "mentora_backend_logo.png",
+          duration: "2026",
+          location: "Backend System Architecture",
+          description:
+            "Developed the backend system for Mentora, implementing RESTful APIs, authentication, and database management to support mentor–student interactions and scalable application workflows.",
+          color: "#6A5ACD",
+        },
+        {
           title: "AI Developer",
           company: "Real-Time Sign Language Detector",
           company_url:
             "https://github.com/Suhail-8800/Real-Time-Sign-Language-Detector.git",
           logo_path: "real_time_sign_language_detector_logo.png",
-          duration: "2025",
+          duration: "2026",
           location: "Computer Vision & Deep Learning Project",
           description:
-            "Developed a real-time sign language recognition system using OpenCV and machine learning techniques, optimizing frame processing for responsive gesture detection.",
+            "Developed a real-time sign language recognition system using OpenCV and machine learning techniques, optimizing frame processing and gesture detection to enable accurate and responsive interpretation of hand movements.",
           color: "#ee3c26",
         },
         {
@@ -537,6 +569,21 @@ const projects = {
     },
     {
       id: 3,
+      name: "Mentora Backend System",
+      description:
+        "Scalable backend system for the Mentora platform implementing RESTful APIs, authentication, and database management to support mentor–student interactions.",
+      html_url: "https://github.com/Suhail-8800/MentoraBackend",
+      stargazers_count: 0,
+      forks_count: 0,
+      language: "JavaScript",
+      topics: ["Node.js", "Express", "REST API", "Backend Development"],
+      owner: {
+        login: "Suhail-8800",
+        avatar_url: "",
+      },
+    },
+    {
+      id: 4,
       name: "System Resource Monitor",
       description: "Lightweight terminal-based monitoring tool built in C.",
       html_url: "https://github.com/Suhail-8800/System-Resource-Monitor",
@@ -550,7 +597,7 @@ const projects = {
       },
     },
     {
-      id: 4,
+      id: 5,
       name: "Webhook SQL Problem Solver",
       description:
         "Backend automation system handling webhook triggers and SQL execution.",
@@ -583,21 +630,21 @@ const engineeringHighlights = {
       tech: ["Node.js", "Express", "SQL", "REST APIs"],
     },
     {
-      title: "Lightweight System Monitoring Architecture",
-      project: "System Resource Monitor",
-      description:
-        "Implemented optimized system call sampling in C to track CPU, memory, and disk usage in real time.",
-      impact:
-        "Maintained performance monitoring with minimal runtime overhead.",
-      tech: ["C", "Linux System Calls", "Memory Management"],
-    },
-    {
       title: "Real-Time Inference Optimization",
       project: "Sign Language Detector",
       description:
         "Structured preprocessing and prediction pipeline for stable real-time video-based ML inference.",
       impact: "Achieved smooth live detection while preserving model accuracy.",
       tech: ["Python", "OpenCV", "Machine Learning"],
+    },
+    {
+      title: "Scalable Backend Architecture",
+      project: "Mentora Backend System",
+      description:
+        "Developed a backend architecture with RESTful APIs, authentication mechanisms, and optimized database interactions to power a scalable mentoring platform.",
+      impact:
+        "Improved system reliability and enabled efficient mentor–student workflow management.",
+      tech: ["Node.js", "Express.js", "REST APIs", "Backend Architecture"],
     },
     {
       title: "Scalable Full Stack Deployment Architecture",
@@ -607,6 +654,15 @@ const engineeringHighlights = {
       impact:
         "Enabled scalable handling of real-time user interactions and booking logic.",
       tech: ["React", "Node.js", "MongoDB", "AWS"],
+    },
+    {
+      title: "Lightweight System Monitoring Architecture",
+      project: "System Resource Monitor",
+      description:
+        "Implemented optimized system call sampling in C to track CPU, memory, and disk usage in real time.",
+      impact:
+        "Maintained performance monitoring with minimal runtime overhead.",
+      tech: ["C", "Linux System Calls", "Memory Management"],
     },
   ],
 };
