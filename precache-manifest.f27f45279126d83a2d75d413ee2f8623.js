@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0e65f1fdd4b26471190facb54e679a1",
+    "revision": "ca84914c474cf234320699bd23c486cc",
     "url": "/suhail_rajput_portfolio/index.html"
   },
   {
-    "revision": "4a05316ed75d4265292f",
-    "url": "/suhail_rajput_portfolio/static/css/main.2aead237.chunk.css"
+    "revision": "d92aea73bf3d81b94749",
+    "url": "/suhail_rajput_portfolio/static/css/main.e3a829ce.chunk.css"
   },
   {
-    "revision": "8d121c26328baea68321",
-    "url": "/suhail_rajput_portfolio/static/js/2.186ce0f9.chunk.js"
+    "revision": "20e0f3fa4251fa6c05b7",
+    "url": "/suhail_rajput_portfolio/static/js/2.d507fc0a.chunk.js"
   },
   {
-    "revision": "4a05316ed75d4265292f",
-    "url": "/suhail_rajput_portfolio/static/js/main.0e316f91.chunk.js"
+    "revision": "d92aea73bf3d81b94749",
+    "url": "/suhail_rajput_portfolio/static/js/main.47f8211c.chunk.js"
   },
   {
     "revision": "aed7b0cd2dbc16e81a89",
@@ -222,6 +222,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "83ac24fb968a474c6a63f7a4e9a8f62c",
     "url": "/suhail_rajput_portfolio/static/media/manOnTable.83ac24fb.svg"
+  },
+  {
+    "revision": "ad8b958d4d657b044819ab9f6ef88796",
+    "url": "/suhail_rajput_portfolio/static/media/mentora_backend_logo.ad8b958d.png"
   },
   {
     "revision": "069938a84edd6ebf383c318e9feb5d4c",

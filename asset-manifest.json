@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/suhail_rajput_portfolio/static/css/main.2aead237.chunk.css",
-    "main.js": "/suhail_rajput_portfolio/static/js/main.0e316f91.chunk.js",
-    "main.js.map": "/suhail_rajput_portfolio/static/js/main.0e316f91.chunk.js.map",
+    "main.css": "/suhail_rajput_portfolio/static/css/main.e3a829ce.chunk.css",
+    "main.js": "/suhail_rajput_portfolio/static/js/main.47f8211c.chunk.js",
+    "main.js.map": "/suhail_rajput_portfolio/static/js/main.47f8211c.chunk.js.map",
     "runtime-main.js": "/suhail_rajput_portfolio/static/js/runtime-main.58d55614.js",
     "runtime-main.js.map": "/suhail_rajput_portfolio/static/js/runtime-main.58d55614.js.map",
-    "static/js/2.186ce0f9.chunk.js": "/suhail_rajput_portfolio/static/js/2.186ce0f9.chunk.js",
-    "static/js/2.186ce0f9.chunk.js.map": "/suhail_rajput_portfolio/static/js/2.186ce0f9.chunk.js.map",
+    "static/js/2.d507fc0a.chunk.js": "/suhail_rajput_portfolio/static/js/2.d507fc0a.chunk.js",
+    "static/js/2.d507fc0a.chunk.js.map": "/suhail_rajput_portfolio/static/js/2.d507fc0a.chunk.js.map",
     "index.html": "/suhail_rajput_portfolio/index.html",
-    "precache-manifest.5cf10fe1fbca49b219d965e97e76f67b.js": "/suhail_rajput_portfolio/precache-manifest.5cf10fe1fbca49b219d965e97e76f67b.js",
+    "precache-manifest.f27f45279126d83a2d75d413ee2f8623.js": "/suhail_rajput_portfolio/precache-manifest.f27f45279126d83a2d75d413ee2f8623.js",
     "service-worker.js": "/suhail_rajput_portfolio/service-worker.js",
-    "static/css/main.2aead237.chunk.css.map": "/suhail_rajput_portfolio/static/css/main.2aead237.chunk.css.map",
+    "static/css/main.e3a829ce.chunk.css.map": "/suhail_rajput_portfolio/static/css/main.e3a829ce.chunk.css.map",
     "static/media/index.css": "/suhail_rajput_portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/QueryNexus_logo.png": "/suhail_rajput_portfolio/static/media/QueryNexus_logo.0e2c7895.png",
     "static/media/Suhail_Rajput_Resume.pdf": "/suhail_rajput_portfolio/static/media/Suhail_Rajput_Resume.4e0f28c9.pdf",
@@ -41,6 +41,7 @@
     "static/media/intel_logo.jpg": "/suhail_rajput_portfolio/static/media/intel_logo.29152cf7.jpg",
     "static/media/jsFramework.svg": "/suhail_rajput_portfolio/static/media/jsFramework.5b4a6449.svg",
     "static/media/manOnTable.svg": "/suhail_rajput_portfolio/static/media/manOnTable.83ac24fb.svg",
+    "static/media/mentora_backend_logo.png": "/suhail_rajput_portfolio/static/media/mentora_backend_logo.ad8b958d.png",
     "static/media/muffito_logo.png": "/suhail_rajput_portfolio/static/media/muffito_logo.069938a8.png",
     "static/media/portfolio.gif": "/suhail_rajput_portfolio/static/media/portfolio.414dfbd9.gif",
     "static/media/programmer.svg": "/suhail_rajput_portfolio/static/media/programmer.5faf790b.svg",
@@ -56,8 +57,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.58d55614.js",
-    "static/js/2.186ce0f9.chunk.js",
-    "static/css/main.2aead237.chunk.css",
-    "static/js/main.0e316f91.chunk.js"
+    "static/js/2.d507fc0a.chunk.js",
+    "static/css/main.e3a829ce.chunk.css",
+    "static/js/main.47f8211c.chunk.js"
   ]
 }
