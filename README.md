@@ -1,37 +1,229 @@
-# Suhail Rajput | Software Engineer Portfolio 🚀
+# Suhail Rajput Portfolio 🚀
 
-A professional, high-performance portfolio website built with **React** and **Styled Components**. This project showcases my journey as a Computer Science and Engineering student, featuring my work on backend systems like **QueryNexus** and system-level tools like the **System Resource Monitor**.
+A **clean, responsive, and customizable developer portfolio website** built using **React.js**.  
+This portfolio showcases my **projects, technical skills, and development experience** as a Computer Science student focused on **backend engineering, AI applications, and full-stack systems**.
 
-## 🛠️ Tech Stack
+---
 
-- **Frontend:** React.js (v18+), Styled Components, BaseUI
-- **Routing:** React Router v5 (Configured for GitHub Pages)
-- **Deployment:** GitHub Pages
-- **Automation:** CI/CD via GitHub Actions
+⭐ **If you like this project, consider starring the repository!**
 
-## 🧠 Key Technical Implementations
+---
 
-- **Automated CI/CD Pipeline:** Integrated GitHub Actions to bypass local environment constraints and ensure seamless, cloud-based builds on every push to the master branch.
-- **SPA Routing Persistence:** Implemented a custom 404-redirect and receiver script logic in `index.html` and `404.html` to handle Single Page Application (SPA) routing on GitHub Pages sub-directories.
-- **OpenSSL Legacy Support:** Configured build environments to support legacy OpenSSL providers, ensuring compatibility with modern Node.js versions.
-- **Optimized Asset Delivery:** Direct integration of professional documents (Resume) within the public directory for reliable, cross-platform access.
+# 🌐 Live Portfolio
 
-## 🚀 Deployment Workflow
+View the deployed portfolio here:
 
-This project utilizes a fully automated deployment strategy. You no longer need to run manual build or deploy scripts locally.
+https://Suhail-8800.github.io/suhail_rajput_portfolio/
 
-1. Commit your changes to the `main` or `master` branch.
-2. The GitHub Actions workflow triggers automatically.
-3. The production bundle is generated in a Linux environment and force-pushed to the `gh-pages` branch.
+---
 
-## 📂 Project Structure
+# 📚 Sections
 
-- `/public`: Contains static assets, `index.html`, the custom `404.html` routing fix, and `resume.pdf`.
-- `/src`: Contains the React architecture, including `containers/`, `components/`, and `portfolio.js` for data management.
-- `/.github/workflows/deploy.yml`: The CI/CD engine powering the automated deployments.
+The portfolio includes the following sections:
 
-## 👤 Contact & Links
+✔️ About Me  
+✔️ Skills  
+✔️ Featured Projects  
+✔️ Experience  
+✔️ Certifications  
+✔️ Education  
+✔️ Resume Viewer  
+✔️ Contact Information
 
-- **Portfolio URL:** [https://Suhail-8800.github.io/suhail_rajput_portfolio/](https://Suhail-8800.github.io/suhail_rajput_portfolio/)
-- **GitHub:** [@Suhail-8800](https://github.com/Suhail-8800)
-- **Project Highlight:** Check out [QueryNexus](https://github.com/Suhail-8800), my backend platform project.
+---
+
+# 📑 Table of Contents
+
+- Clone and Setup
+- Customization
+- Project Structure
+- Deployment
+- Technologies Used
+- Projects Showcased
+- License
+- Contact
+
+---
+
+# Clone and Setup 📋
+
+The portfolio is built using **React.js**, so you need **Node.js and npm** installed.
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Suhail-8800/suhail_rajput_portfolio.git
+```
+
+### 2️⃣ Navigate into the project directory
+
+```bash
+cd suhail_rajput_portfolio
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run the development server
+
+```bash
+npm start
+```
+
+The website will run locally at:
+
+```
+http://localhost:3000
+```
+
+---
+
+# Customization ✏️
+
+The portfolio is **fully customizable**.
+
+Most personal information is stored in:
+
+```
+src/portfolio.js
+```
+
+From this file you can modify:
+
+- Personal Information
+- Skills
+- Projects
+- Social Links
+- Experience
+- Education
+- Certifications
+- Contact Details
+
+All updates will automatically reflect on the website.
+
+---
+
+# Project Structure 📂
+
+```
+portfolio/
+│
+├── public/
+│   ├── index.html
+│   ├── 404.html
+│   └── resume.pdf
+│
+├── src/
+│   ├── components/
+│   ├── containers/
+│   ├── assets/
+│   ├── pages/
+│   └── portfolio.js
+│
+└── .github/
+    └── workflows/
+        └── deploy.yml
+```
+
+---
+
+# Deployment 📦
+
+The portfolio is deployed using **GitHub Pages with automated CI/CD**.
+
+### Deployment Workflow
+
+1️⃣ Push changes to the `main` branch  
+2️⃣ GitHub Actions automatically triggers the build  
+3️⃣ Production build is generated  
+4️⃣ Website is deployed to **GitHub Pages**
+
+---
+
+# 🛠 Technologies Used
+
+Frontend:
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Styled Components
+- BaseUI
+
+DevOps:
+
+- GitHub Pages
+- GitHub Actions (CI/CD)
+
+Development Tools:
+
+- Git
+- GitHub
+- VS Code
+
+---
+
+# 📌 Projects Showcased in Portfolio
+
+### Boutique Travel Planning Portal
+
+A full-stack platform that allows users to create **custom travel itineraries and explore curated experiences**.
+
+Repository  
+https://github.com/Suhail-8800
+
+---
+
+### System Resource Monitor
+
+A **system-level monitoring tool** that tracks CPU usage, memory usage, and performance metrics in real time.
+
+Repository  
+https://github.com/Suhail-8800
+
+---
+
+### Mentora Backend
+
+A backend system for a **mentorship platform connecting parents, students, and mentors**.
+
+Repository  
+https://github.com/Suhail-8800
+
+---
+
+### Real-Time Sign Language Detector
+
+A **computer vision project** that detects sign language gestures using **Python and OpenCV**.
+
+Repository  
+https://github.com/Suhail-8800
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# 👨‍💻 Author
+
+**Suhail Rajput**
+
+Email  
+suhail2022@vitbhopal.ac.in
+
+LinkedIn  
+https://www.linkedin.com/in/suhail-rajput-64158722b/
+
+GitHub  
+https://github.com/Suhail-8800
+
+---
+
+⭐ If you find this project helpful, please **star the repository**.
